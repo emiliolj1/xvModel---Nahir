@@ -1,0 +1,180 @@
+:root{
+  --contador:#EEAC3A;
+  --lightContador:#FDF7EC;
+  --ghostWhite:#FEFBFF;
+  --lapisLazuli: #216485;
+  --slateGray: #6B808D;
+  --charcoal:#153A4C;
+  --columbiaBlue:#CBE7F4;
+  --skyBlue:#95C0D6;
+  --airBlue:#72A8C3;
+  --white:#F8FDFE;
+  --aliceBlue:#E5F4FB;
+  --fuente:"Yeseva One", serif;
+  --secFont: "PT Serif", serif;
+}
+
+.bgFooter{
+  background-color: #1A1A1A;
+}
+
+.sectionM{
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.titulo{
+  font-family: var(--fuente);
+  font-weight: 900;
+  font-style: italic;
+  font-size: 1.8rem;
+}
+
+.cardFont{
+  font-family: var(--secFont);
+  font-weight: 500;
+}
+
+.faceInv{
+  background-image: url(../resources/first.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+}
+
+.twoInv{
+  background-image: url(../resources/op4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(19, 70, 141, 0.4);
+  background-blend-mode: multiply;
+}
+
+.threeInv{
+  background-image: url(../resources/fondoMariposas.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--ultraLightGold);
+}
+
+.fiveInv{
+  background-color: var(--lightContador);
+}
+
+.fourInv{
+  background-color: #fff1c6;
+}
+
+
+.sixInv{
+  background-image: url(../resources/end.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+}
+
+.title{
+  text-align: center;
+}
+.nombre{
+  color: var(--lightContador);
+  margin-top: 0;
+  font-family: var(--fuente);
+  font-weight: bold;
+  font-style: italic;
+  font-size: 50px;
+}
+.misXv{
+  color: var(--lightContador);
+  margin-bottom: 0;
+  font-weight: bold;
+  font-family: var(--fuente);
+  font-style: italic;
+  font-size: 25px;
+}
+
+.frase{
+  color: var(--skyBlue);
+  margin: 0 1px 1px 0;
+  border: 1px;
+  font-weight: 600;
+  font-family: var(--secFont);
+  font-style: italic;
+  font-size: 16px;
+}
+
+.frase>p{
+  margin: 1px;
+}
+
+.card {
+  background: var(--lightContador);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.cardButton{
+  background-color: var(--airBlue);
+  border: 1px solid var(--charcoal);
+  color: var(--ghostWhite);
+}
+
+.cardButton:hover{
+  background-color: var(--ghostWhite);
+  border: 1px solid var(--charcoal);
+  color: var(--airBlue);
+}
+
+.cardButton:active{
+  background-color: var(--ghostWhite);
+  border: 1px solid var(--charcoal);
+  color: var(--airBlue);
+}
+
+.asistenciaFont{
+  font-family: var(--fuente);
+  font-weight: 600;
+  color: var(--charcoal);
+}
+
+.fraseEnd{
+  color: whitesmoke;
+  margin: 0 1px 1px 0;
+  border: 1px;
+  font-weight: 200;
+  font-family: var(--fuente);
+  font-style: italic;
+  font-size: 15px;
+}
+
+.frase>p{
+  margin: 1px;
+}
+
+.carrousel{
+  height: 70vh;
+  object-fit: cover;
+}
+
+.peopleFav{
+  height: 60vh;
+}
+
+.modal-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.music-player {
+  position: fixed;
+  bottom: 45vh;
+  right: 10px;
+  z-index: 1000;
+}
+
+.asisBack{
+  background-color: #d7e9f1;
+}
