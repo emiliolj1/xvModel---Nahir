@@ -8,7 +8,7 @@ const Six = () => {
         <p className='mb-0'>Con el corazón lleno de ilusiones, </p>
         <p className='mb-0'>empiezo a volar hacia un futuro brillante.</p>
         {/* <p className='mb-0'>merecen ser compartidos...</p> */}
-        <p className='fw-bold fs-1 mt-2'>Maíte</p>
+        <p className='fw-bold fs-1 mt-2'>Nahir</p>
       </div>
     </Container>
   )

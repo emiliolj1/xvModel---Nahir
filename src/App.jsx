@@ -10,7 +10,7 @@ import Six from './components/sections/Six';
 import Footer from './components/sections/Footer';
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
-import audioFile from './components/resources/MILO J - M.A.I (Video Oficial).mp3'
+import audioFile from './components/resources/photograph.mp3'
 import {PauseCircleFill, PlayCircleFill} from 'react-bootstrap-icons';
 
 function App() {
@@ -39,7 +39,7 @@ function App() {
         <Modal.Body className='mx-auto'>
           <h3 className='titulo text-center'>Bienvenidos</h3>
           <h3 className='titulo text-center'>a la Invitacion de</h3>
-          <h3 className='titulo text-center'>Maíte</h3>
+          <h3 className='titulo text-center'>Nahir</h3>
         </Modal.Body>
         <Modal.Footer className='mx-auto text-center'>
           <Button className='cardFont cardButton mx-auto fs-4 fw-bold' onClick={handleModalClose}>

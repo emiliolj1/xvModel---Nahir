@@ -6,7 +6,7 @@ import { Clipboard2Check, Clipboard2CheckFill, GiftFill } from 'react-bootstrap-
 
 const Five = () => {
   const [copied, setCopied] = useState(false);
-  const textToCopy = 'maite.914.rias.mp';
+  const textToCopy = 'nahirsaracho';
 
   const handleCopy = () => {
     setCopied(true);
