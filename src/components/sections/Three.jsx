@@ -32,7 +32,7 @@ const Three = () => {
       <div className='card cardFont mx-5 px-2 py-2 text-center'>
         <h3 className='fw-bold pt-3'>Quincho</h3>
         <h3 className='fw-bold'>'El majestuoso'</h3>
-        <p className='mb-2'><GeoAltFill/> Colombres </p>
+        <p className='mb-2'><GeoAltFill/> B° Santa Rita - Colombres </p>
         <p className='fw-bold mb-1'>08 · Marzo · 2025</p>
         <p className='fw-bold mb-1'>22:00hrs</p>
         <p className='fw-bold mb-2'>Sé puntual!!</p>
