@@ -9,7 +9,7 @@ const Three = () => {
   return (
     <Container fluid className='threeInv pb-4'>
       <div className='pt-4 pb-3 titulo text-center'>
-        <h3 className='text-decoration-underline fw-bold fs-1'>¡Misa!</h3>
+        <h3 translate='no' className='text-decoration-underline fw-bold fs-1'>¡Misa!</h3>
       </div>
       <div className='card cardFont mx-5 px-3 py-3 text-center'>
         <Image
@@ -34,7 +34,7 @@ const Three = () => {
         <h3 className='fw-bold'>'El majestuoso'</h3>
         <p className='mb-2'><GeoAltFill/> B° Santa Rita - Colombres </p>
         <p className='fw-bold mb-1'>08 · Marzo · 2025</p>
-        <p className='fw-bold mb-1'>22:00hrs</p>
+        <p className='fw-bold mb-1'>21:30hrs</p>
         <p className='fw-bold mb-2'>Sé puntual!!</p>
         <Button href='https://maps.app.goo.gl/EMqvMogvHZ6qB9957' className='mb-3 mx-auto cardButton fw-bold'>
           Ver mapa!
