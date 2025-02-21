@@ -32,7 +32,7 @@ const Five = () => {
         <p translate='no' className='fs-4 my-0'>¡El mejor regalo</p>
         <p translate='no' className='pb-4 fs-4 my-0'>es tu presencia!</p>
         <p translate='no' className='fs-6 my-0'>Pero si deseas hacerme un obsequio</p>
-        <p translate='no' className='fs-6 mb-3'>te dejo esta opcion...</p>
+        <p translate='no' className='fs-6 mb-3'>y no sabes que, te dejo esta opcion...</p>
         <CopyToClipboard text={textToCopy} onCopy={handleCopy}>
           <Button className="cardButton cardFont fs-5 mx-auto fw-bold">
             {copied ?
