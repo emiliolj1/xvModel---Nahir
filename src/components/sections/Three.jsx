@@ -20,7 +20,7 @@ const Three = () => {
         <h3 className='fw-bold m-0'>Parroquia</h3>
         <h3 className='fw-bold mt-0'>'San Francisco Solano' </h3>
         <p className='mb-2'><GeoAltFill/> Av. San Martin - Bda. Rio Sali</p>
-        <p className='fw-bold mb-1'>2 · Marzo · 2025</p>
+        <p className='fw-bold mb-1'>02 · Marzo · 2025</p>
         <p className='fw-bold mb-1'>11:00hrs</p>
         <Button href='https://maps.app.goo.gl/bsdo7rWtLG2nDoiX8' className='mb-3 mx-auto cardButton fw-bold'>
           Ver mapa!
