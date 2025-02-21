@@ -16,10 +16,10 @@ const Five = () => {
   };
 
   return (
-    <Container fluid className="fiveInv">
+    <Container fluid className="fiveInv px-0">
       <div className='asistenciaFont asisBack text-center pb-4 pt-4'>
         <h2 className='text-decoration-underline fs-1 fw-bold'>Asistencia</h2>
-        <p className='fs-6 my-0'>Quiero contar contigo, ¿vienes?</p>
+        <p className='fs-6 my-0'>Deseo que vengas, ¿vienes?</p>
         <p className='fs-6 my-0'>Confírmame, por favor.</p>
         <Button href='https://wa.me/543812035936?text=Hola%20Maíte,%20confirmo%20mi%20presencia.%20Soy%20[tu nombre]' className='my-3 mx-auto cardButton fw-bold'>
           Confirmar Presencia!
@@ -27,8 +27,8 @@ const Five = () => {
       </div>
       <div className='asistenciaFont text-center pb-2 pt-4'>
         <h2 className='fs-1 fw-bold'>Regalos <GiftFill/></h2>
-        <p className='fs-6 my-0'>Para mi tu presencia es el mejor regalo,</p>
-        <p className='fs-6 my-0'>Pero si quieres regalarme algo y no sabes que</p>
+        <p className='fs-6 my-0'>Tenerte aquí es lo que más valoro,</p>
+        <p className='fs-6 my-0'>pero si buscas un detalle y no sabes cual</p>
         <p className='fs-6 mb-3'>Te dejo esta opcion...</p>
         <CopyToClipboard text={textToCopy} onCopy={handleCopy}>
           <Button className="cardButton cardFont fs-5 mx-auto fw-bold">

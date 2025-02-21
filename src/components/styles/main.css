@@ -40,7 +40,7 @@
   background-image: url(../resources/first.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: rgb(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: multiply;
 }
 
@@ -53,14 +53,13 @@
 }
 
 .threeInv{
-  background-image: url(../resources/fondoMariposas.png);
+  background-image: url(../resources/fondomisa.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: var(--ultraLightGold);
 }
 
 .fiveInv{
-  background-color: var(--lightContador);
+  background-color: var(--white);
 }
 
 .fourInv{
@@ -69,7 +68,7 @@
 
 
 .sixInv{
-  background-image: url(../resources/end.jpg);
+  background-image: url(../resources/op2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgb(0, 0, 0, 0.4);
@@ -97,13 +96,13 @@
 }
 
 .frase{
-  color: var(--skyBlue);
+  color: var(--ghostWhite);
   margin: 0 1px 1px 0;
   border: 1px;
   font-weight: 600;
   font-family: var(--secFont);
   font-style: italic;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .frase>p{
@@ -111,7 +110,7 @@
 }
 
 .card {
-  background: var(--lightContador);
+  background: var(--ghostWhite);
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
