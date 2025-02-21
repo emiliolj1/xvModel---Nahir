@@ -6,15 +6,15 @@ import dresscode from '../resources/dressCode.png'
 const Four = () => {
   return (
     <>
-      <Container fluid className='py-4 text-center'>
-        <h3 translate='no' className='pb-3 text-decoration-underline text-center titulo' style={{'color':"var(--skyBlue)"}}>DressCode</h3>
+      <Container fluid className='py-3 text-center'>
+        <h3 translate='no' className=' text-decoration-underline text-center titulo' style={{'color':"var(--skyBlue)", 'fontSize':'1.5rem'}}>DressCode</h3>
         {/* <Carrousel/> */}
         <Image
         className=''
-        style={{'width':"25rem"}}
+        style={{'width':"9rem",}}
         src={dresscode}
         />
-        <h3 translate='no' className='pt-3 text-center titulo' style={{'color':"var(--charcoal)","fontStyle":'normal'}}>Elegante Sport</h3>
+        <h3 translate='no' className='pt-2 text-center titulo' style={{'color':"var(--charcoal)","fontStyle":'normal', 'fontSize':'1.3rem'}}>Elegante Sport</h3>
       </Container>
     </>
   )
