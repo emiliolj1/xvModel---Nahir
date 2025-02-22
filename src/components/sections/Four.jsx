@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Image } from 'react-bootstrap'
 import Carrousel from '../layout/Carrousel'
-import dresscode from '../resources/dressCode.png'
+import dresscode from '../resources/dresscode2.jpg'
 
 const Four = () => {
   return (
@@ -11,7 +11,7 @@ const Four = () => {
         {/* <Carrousel/> */}
         <Image
         className=''
-        style={{'width':"9rem",}}
+        style={{'width':"6rem",}}
         src={dresscode}
         />
         <h3 translate='no' className='pt-2 text-center titulo' style={{'color':"var(--charcoal)","fontStyle":'normal', 'fontSize':'1.3rem'}}>Elegante Sport</h3>
